@@ -1,0 +1,14 @@
+//import fonts from google fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Poppins&family=Raleway:wght@500&display=swap');
+
+*{
+    font-family: 'open-sans',sans-serif;
+}
+
+.primary-gradient{
+    background: #FF512F;
+    background:linear-gradient(to right,#DD2476,#FF512F)
+}
+
+@import './sass/extends';
+@import './sass/login';
